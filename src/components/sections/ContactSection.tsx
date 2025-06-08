@@ -134,7 +134,7 @@ const ContactSection: React.FC = () => {
                     disabled={isSubmitting}
                     rows={5}
                     className="w-full pl-12 pr-4 py-3 bg-black/30 border border-white/20 rounded-lg text-white placeholder-white/50 focus:border-[#64FFDA] focus:outline-none focus:ring-2 focus:ring-[#64FFDA]/20 transition-all duration-300 resize-none disabled:opacity-50 text-center md:text-left"
-                    placeholder="Tell me about your project or just say hello!"
+                    placeholder="Type your message here..."
                   />
                 </div>
               </div>
