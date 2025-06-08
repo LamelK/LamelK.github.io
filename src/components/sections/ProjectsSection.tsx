@@ -2,7 +2,7 @@ import React from 'react';
 import { ExternalLink, Github, Cloud, Brain, Zap, Shield, Heart, AlertCircle } from 'lucide-react';
 
 const ProjectsSection: React.FC = () => {
-  const projects = [
+const projects = [
     {
       title: "Automated Data Pipeline with Interactive Dashboard",
       description: "End-to-end automated data pipeline integrating data ingestion, processing, and visualization. Features an interactive dashboard with weekly data refresh, enabling timely data-driven decision-making.",
@@ -14,7 +14,8 @@ const ProjectsSection: React.FC = () => {
       borderColor: "border-[#64FFDA]/30",
       hoverBorder: "hover:border-[#64FFDA]/50",
       shadowColor: "hover:shadow-[#64FFDA]/10",
-      image: "/src/assets/my architecture diagram.png",
+      // Changed image path (assuming you moved it to public/images/)
+      image: "/images/architecture-diagram.png",
       isWorkplaceSimulation: true
     },
     {
@@ -28,7 +29,8 @@ const ProjectsSection: React.FC = () => {
       borderColor: "border-[#FF6EC7]/30",
       hoverBorder: "hover:border-[#FF6EC7]/50",
       shadowColor: "hover:shadow-[#FF6EC7]/10",
-      image: "/src/assets/anime picture.jpg"
+      // Changed image path (assuming you moved it to public/images/)
+      image: "/images/anime-picture.jpg"
     },
     {
       title: "Fuel Consumption Prediction & Analysis",
@@ -67,7 +69,7 @@ const ProjectsSection: React.FC = () => {
       borderColor: "border-red-400/30",
       hoverBorder: "hover:border-red-400/50",
       shadowColor: "hover:shadow-red-400/10",
-      image: "/src/assets/obesity pic.jpg"
+      image: "/images/obesity-pic.jpg"
     }
   ];
 
