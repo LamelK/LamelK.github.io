@@ -6,7 +6,7 @@ const projects = [
     {
       title: "Automated Data Pipeline with Interactive Dashboard",
       description: "End-to-end automated data pipeline integrating data ingestion, processing, and visualization. Features an interactive dashboard with weekly data refresh, enabling timely data-driven decision-making.",
-      tools: ["AWS", "Python", "SQL", "Metabase"],
+      tools: ["AWS", "Python", "SQL", "Metabase", "Prefect"],
       codeUrl: "https://github.com/LamelK/Automated-Data-Pipeline-Interactive-Dashboard",
       liveUrl: "https://insightportals.fyi/",
       icon: Cloud,
