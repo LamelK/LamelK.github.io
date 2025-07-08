@@ -1,9 +1,11 @@
 import React from 'react';
 import { ExternalLink, Github, Cloud, Brain, Zap, Shield, Heart, AlertCircle } from 'lucide-react';
 
+// projects data
 const ProjectsSection: React.FC = () => {
 const projects = [
     {
+
       title: "Automated Data Pipeline with Interactive Dashboard",
       description: "End-to-end automated data pipeline integrating data ingestion, processing, and visualization. Features an interactive dashboard with weekly data refresh, enabling timely data-driven decision-making.",
       tools: ["AWS", "Python", "SQL", "Metabase", "Prefect"],
